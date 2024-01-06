@@ -29,8 +29,8 @@ local ThunderImageUI = Instance.new("ImageLabel")
         ThunderToggleUI.TextSize = 14.000
         ThunderToggleUI.Draggable = true
         ThunderToggleUI.MouseButton1Click:Connect(function()
-        game:GetService("VirtualInputManager"):SendKeyEvent(true,305,false,game)
-        game:GetService("VirtualInputManager"):SendKeyEvent(false,305,false,game)
+        game:GetService("VirtualInputManager"):SendKeyEvent(Ctrl,false,game)
+        game:GetService("VirtualInputManager"):SendKeyEvent(Ctrl,false,game)
         end)
 
         ThunderCornerUI.Name = "ThunderCornerUI"
